@@ -28,3 +28,12 @@ git add .
 
 git commit -m "first commit"
 
+create an empty repo on github remote with name simple-dvc-demo, do not give desc or gitignore or readme
+
+git remote set-url origin https://chiraga@github.com/chiraga/simple-dvc-demo.git
+
+git remote add origin https://github.com/chiraga/simple-dvc-demo.git
+
+git branch -M main
+
+git push -u origin main
