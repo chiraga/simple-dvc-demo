@@ -55,3 +55,7 @@ git branch -M main
 ```bash
 git push -u origin main
 ```
+
+```bash
+dvc repro
+```
